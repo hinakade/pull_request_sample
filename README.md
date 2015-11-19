@@ -27,6 +27,14 @@ hogehoge
 
 ###指定したcommitまでコードを遡る方法
 1 github上(もしくはlog上)でコミットハッシュをコピー
-2 
-3 
+2  ``コマンドでコミット
+3 ``コマンドで最新のコミットに戻る
+###別ブランチのコミットをmasterブランチへ追加する方法
+1 別ブランチまでの変更をコミットする
+2 `git log --oneline`でコミットのハッシュを見る
+3 `git checkout master`でmasterブランチへ移動
+4 `git cherry-pick ハッシュ（＃）`で別の部rンチのコミットをmasterへ追加
 
+###ローカルブランチの削除
++`git branch -d ブランチ名`
++もし`git branch -D`矯正削除も可能
