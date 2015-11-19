@@ -1,5 +1,7 @@
 pull request の練習リポジトリ
-GithubのREADMEファイルはGithubマークダウン記法を使って記述する。 markdownで行こう
+GithubのREADMEファイルはGithubマークダウン記法を使って記述する。 
+[markdownで行こう](https://gist.github.com/wate/7072365)
+markdownで行こう
 
 git -> Githubへのpush(流れ)
 
@@ -12,6 +14,7 @@ Github上でリモートリポジトリを作成
 git remote add と git pushのコマンドをコピー
 git remote add origin githubのURLコマンドでローカルとリモートを接続
 git push -u origin masterコマンドで保存したソースコードをリモートへ送る
+
 pullの流れ
 
 リモートリポジトリをローカルより育てる
