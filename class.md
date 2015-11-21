@@ -1,4 +1,3 @@
-
 pull request の練習リポジトリ
 GithubのREADMEファイルはGithubマークダウン記法を使って記述する。
 
@@ -12,7 +11,7 @@ Zenhub
 Githubにカンバンなどの機能追加
 gitコマンドまとめ
 
-コマンド  意味
+コマンド  意味　
 git init  カレントディレクトリを Git リポジトリに変換する
 git status  作業ディレクトリやステージングエリアの状況を確認する
 git log コミット履歴の一覧表示。
